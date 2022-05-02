@@ -1,6 +1,11 @@
-header{
-  background-image: url('/images/pexels-photo-5989067.jpeg');
-  height: 50vh; 
+body {
+  background-color: #bcd7e2;
+  margin: 0;
+}
+
+header {
+  background-image: url('/images/pexels-francesco-ungaro-2325446.jpg');
+  height: 50vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -9,44 +14,60 @@ header{
   justify-content: center;
   align-items: center;
 }
-h1{
+
+h1 {
   font-size: 64px;
 }
-h1, h2{
+
+h1,
+h2,
+h3 {
   font-family: 'Germania One', cursive;
-  color: #d341c7;
+  color: #F18F01;
+  ;
   text-align: center;
 }
-h2, h3{
+
+h2 {
+  margin-top: 50px;
+}
+
+h2,
+h3 {
   font-size: 36px;
 }
-h3{
-  color: #B6BE9C;
-  font-family: Calibri, sans-serif;
+
+h3 {
+  text-align: left;
 }
-p{
+
+p {
   font-family: Calibri, sans-serif;
-  color: #31081F;
+  color: #18030f;
   line-height: 28px;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 18px;
 }
-a{
-  color: #326273;
+
+a {
+  color: #d68dd3;
   text-decoration: none;
 }
-a:hover{
-  color: #B6BE9C;
+
+a:hover {
   text-decoration: none;
   font-weight: bold;
 }
-.body-container{
+
+.body-container {
   max-width: 942px;
   margin: auto;
   padding: 20px;
+  padding-top: 50px;
 }
-li{
+
+li {
   display: inline;
   font-size: 20px;
   background-color: #31081F;
