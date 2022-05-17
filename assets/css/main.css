@@ -1,5 +1,5 @@
 body {
-  background-color: #bcd7e2;
+  background-color: #d3e0e6;
   margin: 0;
 }
 
@@ -23,7 +23,7 @@ h1,
 h2,
 h3 {
   font-family: 'Germania One', cursive;
-  color: #F18F01;
+  color: #82192B;
   ;
   text-align: center;
 }
@@ -51,7 +51,7 @@ p {
 }
 
 a {
-  color: #d68dd3;
+  color: #393A61;
   text-decoration: none;
 }
 
