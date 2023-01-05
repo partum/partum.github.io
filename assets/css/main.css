@@ -39,6 +39,7 @@ h3 {
 
 h3 {
   text-align: left;
+  margin: 0;
 }
 
 p {
@@ -51,7 +52,7 @@ p {
 }
 
 a {
-  color: #393A61;
+  color: #82192B;
   text-decoration: none;
 }
 
@@ -66,10 +67,12 @@ a:hover {
   padding: 20px;
   padding-top: 50px;
 }
-
+ul{
+  padding-left: 0;
+}
 li {
   display: inline;
-  font-size: 20px;
+  font-size: 15px;
   background-color: #31081F;
   color: white;
   border-radius: 10px;
@@ -77,4 +80,26 @@ li {
   padding: 5px;
   margin-top: 5px;
   margin-right: 5px;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+ margin-bottom: 40px;
+}
+
+section:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+section img{
+  height: auto;
+  width: 25vw;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+section:nth-child(even) img{
+  margin-right: 0;
+  margin-left: 20px;
 }
