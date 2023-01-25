@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <script src="./index.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="header"><span class="info">My balance
+        <p id="balance">$921.48</p>
+      </span>
+      <img src="./images/logo.svg" alt="Stridex">
+    </div>
+    <div class="body">
+      <h2>Spending - Last 7 days</h2>
+      <div class="graph">
+        <span class="graph__entry">
+          <p class="spent">1.00</p>
+          <span class="bar" id="mon"></span>
+          <p class="day">mon</p>
+        </span>
+        <span class="graph__entry">
+          <p class="spent">1.00</p>
+          <span class="bar" id="tue"></span>
+          <p class="day">tues</p>
+        </span>
+        <span class="graph__entry">
+          <p class="spent">1.00</p>
+          <span class="bar" id="wed"></span>
+          <p class="day">wed</p>
+        </span>
+        <span class="graph__entry">
+          <p class="spent">1.00</p>
+          <span class="bar" id="thu"></span>
+          <p class="day">thurs</p>
+        </span>
+        <span class="graph__entry">
+          <p class="spent">1.00</p>
+          <span class="bar" id="fri"></span>
+          <p class="day">fri</p>
+        </span>
+        <span class="graph__entry">
+          <p class="spent">1.00</p>
+          <span class="bar" id="sat"></span>
+          <p class="day">sat</p>
+        </span>
+        <span class="graph__entry">
+          <p class="spent">1.00</p>
+          <span class="bar" id="sun"></span>
+          <p class="day">sun</p>
+        </span>
+
+      </div>
+      <div class="summary">
+        <span>
+          Total this month
+          <p id="total"> 0</p>
+        </span>
+        <span class="summary__last">
+          <p>+2.4%</p>
+          from last month
+        </span>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.github.com/partum">Julia Arrington</a>.
+  </div>
+</body>
+
+</html>

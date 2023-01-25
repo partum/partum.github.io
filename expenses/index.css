@@ -1,0 +1,108 @@
+body {
+  background-color: #f8e9dd;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+body p {
+  margin: 0;
+}
+body .card {
+  height: auto;
+  max-width: 500px;
+  margin: auto;
+}
+body .card .header {
+  background-color: #ec775f;
+  color: #fffaf5;
+  font-weight: 400;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+body .card .header #balance {
+  font-weight: 700;
+  font-size: 30px;
+}
+body .card .body {
+  background-color: #fffaf5;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  color: #93867b;
+}
+body .card .body h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  color: #382314;
+}
+body .card .body .graph {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+  position: relative;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+body .card .body .graph .graph__entry {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+body .card .body .graph .graph__entry:hover .spent {
+  display: inline;
+}
+body .card .body .graph .graph__entry .spent {
+  background-color: #382314;
+  color: #fffaf5;
+  border-radius: 7px;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: none;
+  font-size: 15px;
+}
+body .card .body .graph .graph__entry .bar {
+  width: 55px;
+  background-color: #ec775f;
+  height: 100%;
+  display: inline-block;
+  border-radius: 5px;
+}
+body .card .body .graph .graph__entry .bar:hover {
+  background-color: #eb9c8e;
+}
+body .card .body .graph .graph__entry .bar.maxBar {
+  background-color: #76b5bc;
+}
+body .card .body .graph .graph__entry .bar.maxBar:hover {
+  background-color: #a2c9cd;
+}
+body .card .body .graph .graph__entry .day {
+  text-align: center;
+}
+body .card .body .summary {
+  border-top: solid 1px #f8e9dd;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+body .card .body .summary #total {
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+body .card .body .summary p {
+  color: #382314;
+}
+body .card .body .summary__last {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=index.css.map */
