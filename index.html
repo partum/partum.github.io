@@ -7,40 +7,78 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
-  <noscript>
-    <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <h1>Hey there, <br> I'm Julia Arrington</h1>
+    <span>
+      <h1>Hey there, I'm Julia Arrington</h1>
+      <p>I am a front-end web developer. I like to create websites that are user friendly and interesting. I am looking
+        for work, so feel free to contact me with any
+        leeds you have.</p>
+      <p>I am working to improve my design skills and learning more about React.</p>
+      <p>When I’m not working, I like to play RPGs and read fantasy novels.</p>
+      <h3>Contact me:</h3>
+      <a href="https://www.linkedin.com/in/julia-arrington">LinkedIn</a>
+      <a href="https://www.github.com/partum">GitHub</a>
+    </span>
+    <img src="./images/pexels-teona-swift-6913721.jpg" alt=" ">
   </header>
+  <div class="tech">
+    <h2>Technologies:</h2>
+    <ul>
+      <li>HTML/HTML5</li>
+      <li>CSS/SCSS</li>
+      <li>JavaScript</li>
+      <li>jQuery</li>
+    </ul>
+    <ul>
+      <li>React.js</li>
+      <li>JSON</li>
+    </ul>
+    <ul>
+      <li>Figma</li>
+      <li>VS Code</li>
+    </ul>
+  </div>
   <div class="body-container">
-    <p>I am a front-end web developer. I like to create websites that are user friendly and interesting. I am looking for work, so feel free to contact me with any 
-      leeds you have.</p>
-    <p>I am working to improve my design skills and learning more about React.</p>
-    <p>When I’m not working, I like to play RPGs, read fantasy novels, and cook.</p>
-    <a href="https://www.linkedin.com/in/julia-arrington">LinkedIn</a>
-    <a href="https://www.github.com/partum">GitHub</a>
+
+
     <h2>Portfolio Works</h2>
+
+    <section>
+      <img src="./expenses/images/Screenshot 2023-01-24.png" alt=" ">
+      <span>
+        <h3>Dynamic Expense Chart</h3>
+
+        <p> This is an expense chart component. It displays the amount of money spend in a week as a bar graph. The day
+          when the most money was spent is highlighted
+          as a blue bar. When the user mouses over a bar, the numerical total for that day is displayed over the bar.
+          This page uses a <b>JSON</b> file to get the amount of money spent,
+          so it is <b>dynamic</b> and can easily be updated with new data.
+        <p class="CTA">
+          <a href="/expenses/index.html">Live</a>
+          <a href="https://github.com/partum/expenses-chart">Code</a>
+        </p>
+      </span>
+    </section>
 
     <section>
       <img src="./assets/screenshot.jpg" alt=" ">
       <span>
         <h3>Social Media Dashboard</h3>
-        <ul>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-        <p> This is a mock-up of a social media dashboard. It has a toggle on the top to switch between dark and light mode. This was implemented with out any frameworks. 
-          It's always good to practice fundamentals. This was designed by 
-          <a href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H" title="Visit this challenge page on Code Mentor">
+
+        <p> This is a mock-up of a social media dashboard. It has a toggle on the top to switch between dark and light
+          mode. This was implemented with out any frameworks.
+          It's always good to practice fundamentals. This was designed by
+          <a href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H"
+            title="Visit this challenge page on Code Mentor">
             Code Mentor</a>.
-        <p>
-          <a href="/dashboard/index.html">Live</a> |
+        <p class="CTA">
+          <a href="/dashboard/index.html">Live</a>
           <a href="https://github.com/partum/social-media-dashboard">Code</a>
         </p>
       </span>
@@ -50,17 +88,13 @@
       <img src="./assets/bucketList.png" alt=" ">
       <span>
         <h3>Bucket List</h3>
-        <ul>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-        </ul>
+
         <p>This is another project designed by<a href="https://scrimba.com/learn/learnreact"
             title="Go to the Scrimba site."> Scrimba</a>. It is a list of locations on my bucket list. This project is a
           great example of what can be done with
           React components. </p>
-        <p>
-          <a href="https://bucket-list-taupe.vercel.app/">Live</a> |
+        <p class="CTA">
+          <a href="https://bucket-list-taupe.vercel.app/">Live</a>
           <a href="https://github.com/partum/bucket-list">Code</a>
         </p>
       </span>
@@ -72,17 +106,13 @@
       <img src="./assets/Screenshot 2023-01-05 at 14-32-37 https __business-card-black.vercel.app.png" alt="">
       <span>
         <h3>Digital Business Card</h3>
-        <ul>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-        </ul>
+
         <p>This is my business card. It was created in React. It was designed by <a
             href="https://scrimba.com/learn/learnreact" title="Go to the Scrimba site.">Scrimba</a>.</p>
         <p>This project was a great React refresher. This project follows React best practices much better than my
           previous React project, below.</p>
-        <p>
-          <a href="https://business-card-black.vercel.app/">Live</a> |
+        <p class="CTA">
+          <a href="https://business-card-black.vercel.app/">Live</a>
           <a href="https://github.com/partum/business-card">Code</a>
         </p>
       </span>
@@ -91,21 +121,18 @@
       <img src="./assets/Screenshot 2023-01-05 at 14-32-56 React App.png" alt="">
       <span>
         <h3>Loop Studios Landing Page</h3>
-        <ul>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-        </ul>
+
         <p>This is a landing page for a fictional company. It was designed by <a
             title="visit the Front End Mentor challenge page"
             href="https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw">Front End Mentor</a> and
           executed by me.</p>
-        <p>This page was created in React. There were a few opportunities for me to use reusable components. For example,
+        <p>This page was created in React. There were a few opportunities for me to use reusable components. For
+          example,
           the picture grid at the bottom show casing their past projects. That section also allowed me to use a <a
             title="GitHub repository of the React responsive module"
             href="https://github.com/yocontra/react-responsive">new-to-me module to add media responsive images</a>.</p>
-        <p>
-          <a href="https://ja-loopstudios.netlify.app/">Live</a> |
+        <p class="CTA">
+          <a href="https://ja-loopstudios.netlify.app/">Live</a>
           <a href="https://github.com/partum/loopstudios">Code</a>
         </p>
       </span>
@@ -114,35 +141,28 @@
       <img src="./assets/Screenshot 2023-01-05 at 14-33-22 React App.png" alt="">
       <span>
         <h3>Calculator</h3>
-        <ul>
-          <li>HTML</li>
-          <li>React</li>
-          <li>JavaScript</li>
-        </ul>
+
         <p>This is a calculator built in React. It supports all basic calculator functions. It also displays the
-          calculation above the answer. This was a great exercise in CSS and adding complex functions in a React project.
-          <p>
-            <a href="https://master--calculator-ja.netlify.app/">Live</a> |
-            <a href="https://github.com/partum/calculator">Code</a>
-          </p>
+          calculation above the answer. This was a great exercise in CSS and adding complex functions in a React
+          project.
+        <p class="CTA">
+          <a href="https://master--calculator-ja.netlify.app/">Live</a>
+          <a href="https://github.com/partum/calculator">Code</a>
+        </p>
       </span>
     </section>
     <section>
       <img src="./assets/Screenshot 2023-01-05 at 14-33-43 Frontend Mentor FAQ Accordion Card.png" alt="">
       <span>
         <h3>FAQ Card With Accordion</h3>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-  
+
+
         <p>This is a fancy FAQ page that utilizes an accordion feature on each question to improve readability. It is
           responsive on mobile. It was designed by <a
             href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam"
             title="Visit the Front-End Mentor site.">Front-End Mentor</a>.</p>
-        <p>
-          <a href="https://accordion-card-hub.vercel.app/">Live</a> |
+        <p class="CTA">
+          <a href="https://accordion-card-hub.vercel.app/">Live</a>
           <a href="https://github.com/partum/accordion-card-hub">Code</a>
         </p>
       </span>

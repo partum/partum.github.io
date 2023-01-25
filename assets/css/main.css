@@ -1,33 +1,41 @@
 body {
-  background-color: #d3e0e6;
+  background-color: #ffffff;
   margin: 0;
-  font-family: Calibri, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  max-width: 867px;
+  margin: auto;
+  padding-top: 53px;
 }
 
 header {
-  background-image: url('/images/pexels-francesco-ungaro-2325446.jpg');
-  height: 50vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+}
+
+header span {
+  padding-right: 30px;
+}
+
+header h3 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 157.9%;
+  color: #035E50;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+header img {
+  width: 100%;
 }
 
 h1 {
-  font-size: 64px;
+  font-weight: 700;
+  font-size: 24px;
 }
 
-h1,
-h2,
-h3 {
-  font-family: 'Germania One', cursive;
-  color: #82192B;
-  ;
-  text-align: center;
-}
+
 
 h2 {
   margin-top: 50px;
@@ -40,21 +48,19 @@ h3 {
 
 h3 {
   text-align: left;
-  margin: 0;
 }
 
 p {
-  font-family: Calibri, sans-serif;
-  color: #18030f;
-  line-height: 28px;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 157.9%;
+  margin: 5px 0;
 }
 
 a {
-  color: #82192B;
+  color: #035E50;
   text-decoration: none;
+  font-size: 12px;
 }
 
 a:hover {
@@ -62,45 +68,68 @@ a:hover {
   font-weight: bold;
 }
 
-.body-container {
-  max-width: 942px;
-  margin: auto;
-  padding: 20px;
-  padding-top: 50px;
-}
-ul{
-  padding-left: 0;
-}
-li {
-  display: inline;
-  font-size: 15px;
-  background-color: #31081F;
-  color: white;
-  border-radius: 10px;
-  font-family: Calibri, sans-serif;
-  padding: 5px;
-  margin-top: 5px;
-  margin-right: 5px;
+.tech {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 70px;
 }
 
-section{
+.tech h2 {
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+li {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.body-container h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+section {
   display: flex;
   flex-direction: row;
- margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
-section:nth-child(even){
+section:nth-child(odd) {
   flex-direction: row-reverse;
 }
 
-section img{
+section h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+section img {
   height: auto;
   width: 25vw;
   object-fit: cover;
   margin-right: 20px;
 }
 
-section:nth-child(even) img{
+section:nth-child(odd) img {
   margin-right: 0;
   margin-left: 20px;
+}
+
+.CTA {
+  margin-top: 15px;
+}
+
+.CTA a {
+  width: 68.43px;
+  height: 30px;
+  font-weight: 700;
+  background: #035E50;
+  border-radius: 16px;
+  font-size: 12px;
+  color: white;
+  padding: 8px 15px;
+  margin: 10px 10px 0 0;
 }
